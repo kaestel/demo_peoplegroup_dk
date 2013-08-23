@@ -33,7 +33,6 @@
 		<ul class="servicenavigation">
 			<li class="keynav front"><a href="/index">Forside</a></li>
 			<li class="keynav navigation nofollow"><a href="#navigation" rel="nofollow">Til hovedmenuen</a></li>
-			<li class="keynav search"><a href="/search" rel="nofollow">Søg</a></li>
 		</ul>
 		<h1>Peoplegroup</h1>
 	</div>

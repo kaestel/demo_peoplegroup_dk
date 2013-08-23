@@ -41,7 +41,7 @@ document.write('<script type="text/javascript" src="/js/lib/i-sharing.js"></scri
 document.write('<script type="text/javascript" src="/js/lib/i-twitter.js"></script>');
 
 
-document.write('<script type="text/javascript" src="/js/lib/ga.js"></script>');
-document.write('<script type="text/javascript" src="/js/jes/src/u-googleanalytics.js"></script>');
+// document.write('<script type="text/javascript" src="/js/lib/ga.js"></script>');
+// document.write('<script type="text/javascript" src="/js/jes/src/u-googleanalytics.js"></script>');
 
 document.write('<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>');
