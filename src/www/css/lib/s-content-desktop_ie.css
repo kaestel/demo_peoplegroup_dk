@@ -1,0 +1,27 @@
+#content {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+#page {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+#content .carousel {height: 381px; position: relative;}
+
+/*
+.people #content ul.people ul.tools {width: 400px;}
+*/
+#navigation div.search form.search label {line-height: 15px;}
+
+#navigation div.search input.button.submit {font-weight: normal;}
+#navigation div.search.focus input.button.submit {top: 5px;}
+.search #navigation div.search.focus input.button.submit {top: 5px;}
+
+.search #navigation div.search form.search input#search_input,
+#navigation div.search.focus form.search input#search_input {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+#navigation div.search form.search input#search_input {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}

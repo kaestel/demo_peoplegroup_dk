@@ -1,0 +1,61 @@
+#navigation {margin: 0 21px; border-bottom: 1px solid #9e9e9e; overflow: hidden;}
+#navigation * {font-family: "GothamMedium", Arial; font-size: 13px;}
+#navigation ul {overflow: hidden; list-style: none; display: inline-block;}
+
+#navigation ul li {float: left; padding: 0px 23px 0px 0px;}
+#navigation ul li h3 a {text-decoration: none; text-transform: uppercase; padding-bottom: 5px; display: block; letter-spacing: 1px;}
+
+
+
+.front #navigation ul li.front h3 a,
+.about #navigation ul li.about h3 a,
+.cases #navigation ul li.cases h3 a,
+.people #navigation ul li.people h3 a,
+.jobs #navigation ul li.jobs h3 a,
+.contact #navigation ul li.contact h3 a,
+#navigation ul li h3 a:hover {color: #6c6c6c;}
+
+#navigation ul li.cases,
+#navigation ul li.people {display: none;}
+
+
+
+
+#navigation div.search {float: right; padding: 1px 52px 0 0;}
+#navigation div.search * {font-size: 11px;}
+
+
+#navigation div.search form.search {position: relative;}
+
+#navigation div.search form.search label {position: absolute; right: 13px; top: 4px; text-transform: uppercase; opacity: 1; line-height: 14px;}
+#navigation div.search form.search input#search_input {position: absolute; right: 0; top: 0; border: none; border-radius: 9px; border-top: 1px solid #686666; border-bottom: 1px solid #9a9999; background: #ffffff; font-family: Georgia, Times, serif; font-size: 14px; font-style: italic; color: #333333; width: 168px; height: 17px; line-height: 17px; padding: 0 45px 1px 14px; margin-top: 1px; opacity: 0; text-align: right;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+#navigation div.search input.button.submit {position: absolute; right: 13px; top: 4px; border: none; color: #333333; text-transform: uppercase; line-height: 15px; opacity: 0; background: transparent;}
+
+
+#navigation div.search input.button.submit::-moz-focus-inner {border: 0; padding: 0;}
+#navigation div.search input.button.submit:hover {cursor: pointer;}
+
+.search #navigation div.search form.search input#search_input,
+.search #navigation div.search input.button.submit,
+#navigation div.search.focus form.search input#search_input,
+#navigation div.search.focus input.button.submit {opacity: 1;}
+#navigation div.search.focus form.search label {opacity: 0;}
+
+
+
+
+#navigation ul.languages {float: right;}
+#navigation ul.languages li {padding: 0 0 0 18px; background: transparent url(/img/black/bg_icons.png) no-repeat 9px -247px;}
+#navigation ul.languages li:first-child {padding-left: 0; background: none;}
+
+#navigation ul.languages li a {font-size: 11px; line-height: 24px; padding-bottom: 6px; display: block;}
+#navigation ul.languages li a:hover {color: #6c6c6c; text-decoration: none;}
+
+
+/* TODO: default - DK */
+#navigation ul.languages li.danish a {color: #6c6c6c;}
+
+#navigation .languages {display: none;}

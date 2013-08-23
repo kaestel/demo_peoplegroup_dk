@@ -1,0 +1,44 @@
+* {font-family: Georgia, Times, serif; font-size: 17px; color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {height: 100%; overflow-y : scroll;}
+
+body {background-color: black; background-repeat: no-repeat; background-position: center 500px; margin: 0; height: 100%;}
+body.loading {background-image: url(/img/black/gx_loader.gif);}
+
+
+/* BASE */
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0; font-weight: normal;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: #9e9e9e;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+input, select, textarea {font-size: 17px;}
+input {outline: none;}
+
+h1, h2, h4 {color: #ffffff;}
+h1 {font-size: 36px; line-height: 42px;}
+h2 {font-size: 26px; line-height: 32px;}
+h3 {font-size: 18px; line-height: 22px;}
+h4 {font-size: 14px; font-weight: bold;}
+p {line-height: 24px;}
+
+#page {position: relative; width: 960px; min-height: 100%; margin: 0 auto; text-align: left; overflow: hidden;}
+
+/* BASIC CONTENT BLOCKS */
+.c {overflow: hidden; clear: both;}
+.c400, .c300, .c266, .c200, .c150, .c133, .c100, .c75, .c50 {float: left; overflow: hidden; min-height: 10px;}
+.c400 {width: 960px;}
+.c300 {width: 720px;}
+.c266 {width: 640px;}
+.c200 {width: 480px;}
+.c150 {width: 360px;}
+.c133 {width: 320px;}
+.c100 {width: 240px;}
+.c75 {width: 180px;}
+.c50 {width: 120px;}
+
+.nofollow {display: none !important;}
+
+.servicenavigation {display: none;}

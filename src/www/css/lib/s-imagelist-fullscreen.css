@@ -1,0 +1,35 @@
+body.fullscreen {background: black;}
+
+#fullscreen {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 5; background-color: black; display: none; opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen .imagefullscreen {padding: 0; overflow: hidden; height: 100%; width: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen .imagefullscreen li {float: left; display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#fullscreen .imagefullscreen li.loading {background-image: url(/img/black/gx_loader.gif) !important;}
+
+
+#fullscreen .imagelist {font-size: 0; text-align: center; display: block; line-height: 0; padding: 1px 0 0 0;
+	position: absolute; bottom: 0; left: 0; width: 100%;
+}
+#fullscreen .imagelist li {display: inline-block;}
+#fullscreen .imagelist li a img {display: none;}
+#fullscreen .imagelist li a {height: 25px; width: 16px; display: block; margin-top: 4px; background: transparent url(/img/black/bg_icons.png) no-repeat 4px -142px;}
+#fullscreen .imagelist li.selected a,
+#fullscreen .imagelist li a:hover {background-position: 3px -92px;}
+
+#fullscreen .controls .next,
+#fullscreen .controls .prev {background: transparent url(/img/black/bg_bn_carousel.png) no-repeat; width: 101px; height: 187px; cursor: pointer; position: absolute; top: 50%; margin-top: -94px;}
+#fullscreen .controls .prev {left: 50%; margin-left: -480px; background-position: -26px 75px;}
+#fullscreen .controls .next {right: 50%; margin-right: -480px; background-position: 75px 75px;}
+#fullscreen .controls .zoom {background: transparent url(/img/black/bg_bn_fullscreen.png) no-repeat 37px -78px; width: 70px; height: 70px; cursor: pointer; position: absolute; right: 50%; top: 50%; margin-right: -480px; margin-top: -270px;}
+
+#fullscreen .imagefullscreen li.movie {position: relative;}
+#fullscreen .imagefullscreen li.movie .play {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -49px; width: 98px; height: 98px; background: transparent url(/img/black/bg_bn_play.png) no-repeat top center;}
+#fullscreen .imagefullscreen li.movie .player {width: 960px; height: 540px; background: black url(/img/black/gx_loader.gif) no-repeat center center; position: absolute; left: 50%; top: 50%; margin-left: -480px; margin-top: -270px; z-index: 100;}
+#fullscreen .imagefullscreen li.movie .player video {width: 100%; height: 100%;}
+#fullscreen .imagefullscreen li.movie .player .playpause {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -49px; width: 98px; height: 98px; background: transparent url(/img/black/bg_bn_play.png) no-repeat 0 0;}
+#fullscreen .imagefullscreen li.movie .player.playing .playpause {background-position: 0 -100px;}

@@ -1,0 +1,18 @@
+#footer {overflow: hidden; padding: 0 0 15px; border-top: 1px solid #9e9e9e; margin: 0 21px;}
+#footer .vcard {text-align: center; display: block; overflow: hidden; font-size: 0; padding-top: 6px;}
+#footer .vcard * {color: #9e9e9e; display: inline; font-size: 11px; font-style: italic; font-family: verdana;}
+
+#footer .vcard .name,
+#footer .vcard .tel,
+#footer .vcard .street-address,
+#footer .vcard .city,
+#footer .vcard .country-name {float: left; padding-right: 20px;}
+
+/*
+#footer .vcard .postal-code,
+#footer .vcard .fax {padding-left: 20px;}
+#footer .vcard .locality,
+#footer .vcard .name  {padding-right: 20px;}
+*/
+#footer .vcard .email {display: none;}
+

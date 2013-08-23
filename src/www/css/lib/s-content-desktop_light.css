@@ -1,0 +1,21 @@
+#content {
+	opacity: 0;
+	visibility: hidden\9;
+}
+#page {opacity: 0;
+	visibility: hidden\9;
+}
+
+#content .carousel {height: 381px; position: relative;}
+
+#header ul.corpnavigation li {padding: 0 7px 0 16px;}
+#header ul.corpnavigation li {*padding: 0 12px 0 18px; white-space: nowrap;}
+#header ul.corpnavigation li.relations {*padding: 0 47px 0 21px;}
+
+
+#navigation ul {*zoom: 1; *display: inline;}
+
+#content ul.imagelist li {*zoom: 1; *display: inline;}
+
+.search #content .info .originpage {*zoom: 1; *display: inline;}
+#fullscreen .imagelist li {*zoom: 1; *display: inline;}

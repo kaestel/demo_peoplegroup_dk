@@ -1,0 +1,17 @@
+#header ul.corpnavigation {padding: 53px 21px 24px 21px; list-style: none; overflow:hidden;}
+#header ul.corpnavigation * {font-size: 10.8px; font-family: "GothamBold", Arial;}
+#header ul.corpnavigation li {float: left; padding: 0 8px 0 18px; background: transparent url(/img/black/bg_icons.png) no-repeat 3px -193px;}
+
+#header ul.corpnavigation li.relations {padding-right: 0; clear: right;}
+#header ul.corpnavigation li.peoplegroup,
+#header ul.corpnavigation li.retail {background: none; padding-left: 0px; clear: left;}
+
+/*
+#header ul.corpnavigation li.fridthjof {padding-left: 21px;}
+#header ul.corpnavigation li.peoplegroup,
+#header ul.corpnavigation li.mega {background: none; padding-left: 0px;}
+*/
+
+#header ul.corpnavigation li a {float: left; text-decoration: none; line-height: 18px;}
+#header ul.corpnavigation li.peoplegroup a,
+#header ul.corpnavigation li a:hover {color: #6c6c6c;}

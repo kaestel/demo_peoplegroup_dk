@@ -1,0 +1,325 @@
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'GothamMedium';
+	src: url('/css/fonts/gotham-medium-webfont.woff') format('woff'),
+		 url('/css/fonts/gotham-medium-webfont.ttf') format('truetype'),
+		 url('/css/fonts/gotham-medium-webfont.svg#GothamMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GothamBold';
+	src: url('/css/fonts/gotham-bold-webfont.woff') format('woff'),
+		 url('/css/fonts/gotham-bold-webfont.ttf') format('truetype'),
+		 url('/css/fonts/gotham-bold-webfont.svg#GothamBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {font-family: Georgia, Times, serif; font-size: 17px; color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+html {height: 100%; overflow-y : scroll;}
+body {background-color: black; background-repeat: no-repeat; background-position: center 500px; margin: 0; height: 100%;}
+body.loading {background-image: url(/img/black/gx_loader.gif);}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0; font-weight: normal;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: #9e9e9e;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+input, select, textarea {font-size: 17px;}
+input {outline: none;}
+h1, h2, h4 {color: #ffffff;}
+h1 {font-size: 36px; line-height: 42px;}
+h2 {font-size: 26px; line-height: 32px;}
+h3 {font-size: 18px; line-height: 22px;}
+h4 {font-size: 14px; font-weight: bold;}
+p {line-height: 24px;}
+#page {position: relative; width: 960px; min-height: 100%; margin: 0 auto; text-align: left; overflow: hidden;}
+.c {overflow: hidden; clear: both;}
+.c400, .c300, .c266, .c200, .c150, .c133, .c100, .c75, .c50 {float: left; overflow: hidden; min-height: 10px;}
+.c400 {width: 960px;}
+.c300 {width: 720px;}
+.c266 {width: 640px;}
+.c200 {width: 480px;}
+.c150 {width: 360px;}
+.c133 {width: 320px;}
+.c100 {width: 240px;}
+.c75 {width: 180px;}
+.c50 {width: 120px;}
+.nofollow {display: none !important;}
+.servicenavigation {display: none;}
+
+/*s-header.css*/
+#header {overflow: hidden;}
+#header h1 {width: 256px; height: 161px; margin: 0 auto; background: transparent url(/img/black/logo_peoplegroup.png) no-repeat top left; text-indent: -9999px; cursor: pointer;}
+
+
+/*s-content.css*/
+#content {min-height: 10px; position: relative; overflow: hidden; padding: 70px 0 100px; background: #000000;}
+#content h2,
+#content h3,
+#content h4,
+#content p,
+#content .vcard,
+#content ul {padding: 0 21px;}
+#content p {padding-bottom: 25px;}
+#content ul {list-style: none;}
+#content #maincontent {width: 720px; float: left;}
+#content #sidebar {width: 240px; float: left; border-left: 1px solid #9e9e9e; margin-left: -1px;}
+#content ul.tools {padding: 0;}
+#content ul.tools {display: block; text-align: right; padding-bottom: 9px;}
+#content ul.tools li.shareicon {background: transparent url(/img/black/bg_icons.png) no-repeat 8px 6px; width: 20px; height: 24px;
+	margin-right: -10px; padding-right: 10px;
+}
+#content ul.tools li.shareicon:hover {background-position: 8px -44px;}
+#content ul.tools li {display: inline-block; vertical-align: middle; cursor: pointer;}
+#content ul.tools li.sharetext {padding-right: 10px;}
+#content ul.tools li a {padding: 0 10px; color: #9e9e9e;}
+#content ul.tools li a:hover {color: #ffffff;}
+#content ul.tools li.twitter a {padding-right: 0px;}
+#content .info .published,
+#content .info .originpage {font-family: verdana; font-size: 11px; display: block; padding-bottom: 4px;}
+#content .info .originpage {font-style: italic; padding-right: 2px;}
+#content .originsite,
+#content .originsite a {font-size: 26px; line-height: 32px; color: #9e9e9e; font-weight: normal; font-family: Georgia, Times, serif;}
+#content ul.list {margin: 0 21px; padding: 0;}
+#content ul.list li {border-bottom: 1px solid #605f5f; margin: 0 0 50px; position: relative;}
+#content ul.list li li {border-bottom: none; margin: 0;}
+#content ul.list li h2 {padding: 0 0 5px;}
+#content ul.list li p {padding-left: 0; padding-right: 0;}
+#content .list div.article {padding: 0; overflow: hidden; margin: 0 0 34px;}
+#content .list div.article a {color: #9e9e9e; text-decoration: underline;}
+#content .list div.article p:last-child {padding: 0;}
+#content .list div.article div.minimize {text-align: right;}
+#content .list div.article div.minimize a {color: #9e9e9e; text-decoration: underline;}
+#content .list div.article a.readmore {color: #9e9e9e; text-decoration: underline; margin-left: 4px;}
+.front #content {padding-top: 74px;}
+.front #content #maincontent {padding: 0 120px;}
+.news #content {padding-top: 74px;}
+.news #content #maincontent {padding: 0 120px;}
+.news #content #maincontent .info {padding: 0 21px;}
+.news #content #maincontent .tools {padding: 0 21px;}
+.news #content #maincontent .carousel {margin: 0 21px; position: relative;}
+.news #content #maincontent .imagelist {margin: 0 21px;}
+.about #content #maincontent {width: 719px; border-right: 1px solid #9e9e9e;}
+.about #content #sidebar h3 {font-size: 14px; line-height: 14px; font-family: "GothamMedium"; border-bottom: 1px solid #9e9e9e; padding: 0 0 13px 0; margin: 0 21px 20px 21px; text-transform: uppercase;}
+.about #content #sidebar .vcard {padding: 0 0 20px 0;}
+.about #content #sidebar .vcard {padding-bottom: 20px; border-bottom: 1px solid #9e9e9e; margin-bottom: 20px;}
+.about #content #sidebar .vcard .photo {padding-bottom: 12px;}
+.about #content #sidebar .vcard .org {display: none;}
+.about #content #sidebar .vcard .name {font-style: normal; padding-bottom: 6px;}
+.about #content #sidebar .vcard .role,
+.about #content #sidebar .vcard .description p,
+.about #content #sidebar .vcard .tel a, 
+.about #content #sidebar .vcard .email a,
+.about #content #sidebar .vcard .tel,
+.about #content #sidebar .vcard .email {font-size: 11px; font-family: verdana; color: #9e9e9e; line-height: 14px; padding: 0;}
+.about #content #sidebar .vcard .role {padding-bottom: 8px; display: none;}
+.about #content #sidebar .vcard .description p {padding-bottom: 11px;}
+.about #content #sidebar .vcard .tel a, 
+.about #content #sidebar .vcard .email a,
+.about #content #sidebar .vcard .tel,
+.about #content #sidebar .vcard .email {color: #ffffff; margin: 0;}
+.about #content #sidebar .vcard .email a {text-decoration: underline;}
+.about #content #sidebar .tools {display: none;}
+.about #content #maincontent h3 {font-size: 13px; line-height: 24px; color: #ffffff; border-bottom: 1px solid #9e9e9e; padding: 21px 0 8px 0; margin: 0 21px 28px 21px; font-family: "GothamMedium"; text-transform: uppercase;}
+.about #content #maincontent .intro {padding-bottom: 35px;}
+.about #content #maincontent .intro p {font-style: italic;}
+.about #content #maincontent img.picture {padding: 11px 38px 23px 21px; float: left;}
+.about #content #maincontent h2 {padding-bottom: 25px; color: #ffffff;}
+.about #content #maincontent .companies {margin-bottom: -28px;}
+.about #content #maincontent .companies li {padding-bottom: 28px;}
+.about #content #maincontent .companies h4 {padding: 0 0 2px; font-size: 17px; font-weight: normal;}
+.about #content #maincontent .companies .description p {padding: 0 0 2px; line-height: 24px;}
+.about #content #maincontent .companies .actions a {color: #9e9e9e;}
+.jobs #content #maincontent {padding: 0 120px;}
+.jobs #content #maincontent .intro {padding-bottom: 14px;}
+.jobs #content #maincontent .intro p {font-style: italic;}
+.jobs #content #maincontent h1 {font-size: 13px; line-height: 24px; color: #ffffff; border-bottom: 1px solid #9e9e9e; padding: 21px 0 8px 0; margin: 0 21px; font-family: "GothamMedium"; text-transform: uppercase;}
+.jobs #content #maincontent ul.jobs li {border-bottom: 1px solid #605f5f; margin: 0 0 22px;}
+.jobs #content #maincontent ul.jobs li .originsite {padding: 40px 0 0;}
+.jobs #content #maincontent ul.jobs li h2 {padding: 0 0 5px;}
+.jobs #content #maincontent ul.jobs li p {padding: 0 0 25px;}
+.jobs #content #maincontent ul.jobs .tools li {border-bottom: none; margin: 0;}
+.jobs #content #maincontent .jobs div.article {padding: 0; overflow: hidden; margin: 0 0 34px;}
+.jobs #content #maincontent .jobs div.article a {color: #9e9e9e; text-decoration: underline;}
+.jobs #content #maincontent .jobs div.article p:last-child {padding: 0;}
+.jobs #content #maincontent .jobs div.article div.minimize {text-align: right;}
+.jobs #content #maincontent .jobs div.article div.minimize a {color: #9e9e9e; text-decoration: underline;}
+.jobs #content #maincontent .jobs div.article a.readmore {color: #9e9e9e; text-decoration: underline; margin-left: 4px;}
+.job #content #maincontent h2 {padding: 0 21px 5px;}
+.job #content #maincontent .info {padding: 0 21px;}
+.job #content #maincontent .tools {padding: 0 21px;}
+.contact #content #maincontent {width: 960px;}
+.contact #content #maincontent .address a.directions {margin: 0 21px; color: #9e9e9e;}
+.contact #content #maincontent h3 {display: none;}
+.contact #content {padding-top: 34px; padding-bottom: 200px;}
+.contact #content .vcard *,
+.contact #content a.directions,
+.contact #content .directions_holder {font-style: italic; font-family: verdana; font-size: 11px; line-height: 14px;}
+.contact #content .address.corporate {padding-bottom: 13px;}
+.contact #content .address .vcard .tel a,
+.contact #content .address .vcard .tel {font-family: Georgia, Times, serif; font-size: 26px; font-style: normal; line-height: 32px; font-weight: normal; letter-spacing: 1px;}
+.contact #content .address .vcard .tel {position: absolute; right: 21px; top: 33px;}
+.contact #content .address .vcard .email {display: none;}
+.contact #content .address .vcard .country-name {display: inline;}
+.contact #content .address .vcard .country-name:before {content: " - ";}
+.contact #content a.directions {text-decoration: underline;}
+.contact #content .address .vcard .adr .city {display: inline;}
+.contact #content #map_canvas {margin: 0 21px; width: 918px; height: 527px;}
+.contact #content #map_canvas * {color: #6C6C6C; font-family: verdana; font-size: 11px;}
+.contact #content #map_canvas input {margin: 0 3px;}
+.contact #content #map_canvas div div div span, 
+.contact #content #map_canvas div div div a {color: #6C6C6C !important; font-family: verdana; font-size: 11px; line-height: 24px; padding-right: 10px;}
+.contact #content ul.addresses li {float: left; width: 198px; padding: 50px 21px 0;}
+.contact #content ul.addresses li:first-child {padding-left: 0;}
+.contact #content ul.addresses li:last-child {padding-right: 0;}
+.contact #content ul.addresses li .vcard {padding: 0;}
+.contact #content ul.addresses li .vcard {padding: 0 0 20px 0;}
+.contact #content ul.addresses li .vcard {padding-bottom: 13px; border-bottom: 1px solid #605f5f; margin-bottom: 20px;
+}
+.contact #content ul.addresses li .vcard .photo {padding-bottom: 15px;}
+.contact #content ul.addresses li .vcard .org {display: none;}
+.contact #content ul.addresses li .vcard .name {font-style: normal; padding-bottom: 7px; color: #ffffff; font-size: 17px; font-family: Georgia, Times, serif;}
+.contact #content ul.addresses li .vcard .role,
+.contact #content ul.addresses li .vcard .description p,
+.contact #content ul.addresses li .vcard .tel a, 
+.contact #content ul.addresses li .vcard .email a,
+.contact #content ul.addresses li .vcard .tel,
+.contact #content ul.addresses li .vcard .email {font-size: 11px; font-family: verdana; color: #ffffff; line-height: 14px; padding: 0;}
+.contact #content ul.addresses li .vcard .role {padding-bottom: 7px;}
+.contact #content ul.addresses li .vcard .description p {padding-bottom: 11px;}
+.contact #content ul.addresses li .vcard .description {padding-bottom: 6px;}
+.contact #content ul.addresses li .vcard .tel a, 
+.contact #content ul.addresses li .vcard .email a,
+.contact #content ul.addresses li .vcard .tel,
+.contact #content ul.addresses li .vcard .email {color: #ffffff; margin: 0;}
+.contact #content ul.addresses li .vcard .email a {text-decoration: underline;}
+.contact #content ul.addresses .tools {display: none;}
+.search #content #maincontent {padding: 0 120px;}
+.search #content form.search {display: none;}
+.search #content span.searchterm {background: #ffffff; color: #030000; padding: 0 1px;}
+.search #content .searchresult {margin-bottom: -40px;}
+.search #content .searchresult li {border-bottom: 1px solid #605F5F; padding: 0 0 34px; margin: 0 0 40px;}
+.search #content .searchresult h2 {padding: 0 0 2px;}
+.search #content .searchresult .info .published,
+.search #content .searchresult .info .originpage {display: inline-block;}
+.search #content .searchresult .article p {padding: 0 0 25px;}
+.search #content .searchresult div.actions {text-align: right;}
+.search #content .searchresult div.actions a {color: #6c6c6c; text-decoration: underline;}
+
+
+/*s-navigation.css*/
+#navigation {margin: 0 21px; border-bottom: 1px solid #9e9e9e; overflow: hidden;}
+#navigation * {font-family: "GothamMedium", Arial; font-size: 13px;}
+#navigation ul {overflow: hidden; list-style: none; display: inline-block;}
+#navigation ul li {float: left; padding: 0px 23px 0px 0px;}
+#navigation ul li h3 a {text-decoration: none; text-transform: uppercase; padding-bottom: 5px; display: block; letter-spacing: 1px;}
+.front #navigation ul li.front h3 a,
+.about #navigation ul li.about h3 a,
+.cases #navigation ul li.cases h3 a,
+.people #navigation ul li.people h3 a,
+.jobs #navigation ul li.jobs h3 a,
+.contact #navigation ul li.contact h3 a,
+#navigation ul li h3 a:hover {color: #6c6c6c;}
+#navigation ul li.cases,
+#navigation ul li.people {display: none;}
+#navigation div.search {float: right; padding: 1px 52px 0 0;}
+#navigation div.search * {font-size: 11px;}
+#navigation div.search form.search {position: relative;}
+#navigation div.search form.search label {position: absolute; right: 13px; top: 4px; text-transform: uppercase; opacity: 1; line-height: 14px;}
+#navigation div.search form.search input#search_input {position: absolute; right: 0; top: 0; border: none; border-radius: 9px; border-top: 1px solid #686666; border-bottom: 1px solid #9a9999; background: #ffffff; font-family: Georgia, Times, serif; font-size: 14px; font-style: italic; color: #333333; width: 168px; height: 17px; line-height: 17px; padding: 0 45px 1px 14px; margin-top: 1px; opacity: 0; text-align: right;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+#navigation div.search input.button.submit {position: absolute; right: 13px; top: 4px; border: none; color: #333333; text-transform: uppercase; line-height: 15px; opacity: 0; background: transparent;}
+#navigation div.search input.button.submit::-moz-focus-inner {border: 0; padding: 0;}
+#navigation div.search input.button.submit:hover {cursor: pointer;}
+.search #navigation div.search form.search input#search_input,
+.search #navigation div.search input.button.submit,
+#navigation div.search.focus form.search input#search_input,
+#navigation div.search.focus input.button.submit {opacity: 1;}
+#navigation div.search.focus form.search label {opacity: 0;}
+#navigation ul.languages {float: right;}
+#navigation ul.languages li {padding: 0 0 0 18px; background: transparent url(/img/black/bg_icons.png) no-repeat 9px -247px;}
+#navigation ul.languages li:first-child {padding-left: 0; background: none;}
+#navigation ul.languages li a {font-size: 11px; line-height: 24px; padding-bottom: 6px; display: block;}
+#navigation ul.languages li a:hover {color: #6c6c6c; text-decoration: none;}
+#navigation ul.languages li.danish a {color: #6c6c6c;}
+#navigation .languages {display: none;}
+
+/*s-footer.css*/
+#footer {overflow: hidden; padding: 0 0 15px; border-top: 1px solid #9e9e9e; margin: 0 21px;}
+#footer .vcard {text-align: center; display: block; overflow: hidden; font-size: 0; padding-top: 6px;}
+#footer .vcard * {color: #9e9e9e; display: inline; font-size: 11px; font-style: italic; font-family: verdana;}
+#footer .vcard .name,
+#footer .vcard .tel,
+#footer .vcard .street-address,
+#footer .vcard .city,
+#footer .vcard .country-name {float: left; padding-right: 20px;}
+#footer .vcard .email {display: none;}
+
+
+/*s-corpnavigation.css*/
+#header ul.corpnavigation {padding: 53px 21px 24px 21px; list-style: none; overflow:hidden;}
+#header ul.corpnavigation * {font-size: 10.8px; font-family: "GothamBold", Arial;}
+#header ul.corpnavigation li {float: left; padding: 0 8px 0 18px; background: transparent url(/img/black/bg_icons.png) no-repeat 3px -193px;}
+#header ul.corpnavigation li.relations {padding-right: 0; clear: right;}
+#header ul.corpnavigation li.peoplegroup,
+#header ul.corpnavigation li.retail {background: none; padding-left: 0px; clear: left;}
+#header ul.corpnavigation li a {float: left; text-decoration: none; line-height: 18px;}
+#header ul.corpnavigation li.peoplegroup a,
+#header ul.corpnavigation li a:hover {color: #6c6c6c;}
+
+/*s-imagelist.css*/
+#content ul.imagelist {font-size: 0; text-align: right; display: block; line-height: 0; padding: 1px 0 0 0;}
+#content ul.imagelist li {display: inline-block; text-align: center; text-indent: -9999px;}
+#content ul.imagelist li a img {display: none;}
+#content ul.imagelist li a {height: 25px; width: 16px; display: block; margin-top: 4px; background: transparent url(/img/black/bg_icons.png) no-repeat 4px -142px;}
+#content ul.imagelist li.selected a,
+#content ul.imagelist li a:hover {background-position: 3px -92px;}
+#content .controls .next,
+#content .controls .prev {background: transparent url(/img/black/bg_bn_carousel.png) no-repeat; width: 101px; height: 187px; cursor: pointer; position: absolute; top: 90px; z-index: 120;}
+#content .controls .prev {left: 0; background-position: -26px 75px;}
+#content .controls .next {right: 0; background-position: 75px 75px;}
+#content .controls .zoom {background: transparent url(/img/black/bg_bn_fullscreen.png) no-repeat 37px 2px; width: 70px; height: 70px; cursor: pointer; position: absolute; top: 0; right: 0;}
+#content .carousel {overflow: hidden;}
+#content .imagecarousel {overflow: hidden; padding: 0; height: 381px;
+	-webkit-transform: translate3d(0,0,0);
+}
+#content .imagecarousel li {float: left; background-color: transparent; background-repeat: no-repeat; background-position: center center;
+	-webkit-transform: translate3d(0,0,0);
+}
+#content .imagecarousel li.movie {position: relative;}
+#content .imagecarousel li.movie .play {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -49px; width: 98px; height: 98px; background: transparent url(/img/black/bg_bn_play.png) no-repeat top center;}
+#content .imagecarousel li.movie .player {width: 100%; height: 100%; background: black url(/img/black/gx_loader.gif) no-repeat center center; position: absolute; top: 0; left: 0; z-index: 100;}
+#content .imagecarousel li.movie .player video {width: 100%; height: 100%;}
+#content .imagecarousel li.movie .player .playpause {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -49px; width: 98px; height: 98px; background: transparent url(/img/black/bg_bn_play.png) no-repeat 0 0;}
+#content .imagecarousel li.movie .player.playing .playpause {background-position: 0 -100px;}
+#content .imagecarousel li.movie .player.error {background: #000000; text-align: center;}
+
+
+/*s-content-tablet.css*/
+* {
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+}
+#content {opacity: 0;}
+#page {opacity: 0;}
+#header ul.corpnavigation li {padding: 0 11px 0 21px;}
+#content ul.imagelist {padding-bottom: 20px; text-align: center;}
+#content ul.imagelist li a {width: 35px; height: 45px; background-image: url(/img/black/bg_icons_tablet.png); background-position: 10px -135px;}
+#content ul.imagelist li.selected a,
+#content ul.imagelist li a:hover {background-position: 10px -85px;}
+
+
+/*s-temp.css*/
+.front #content #sidebar {display: none;}
+#navigation .search {display: none;}
+
+/*s-temp-tablet.css*/
+
