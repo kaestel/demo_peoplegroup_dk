@@ -1,4 +1,4 @@
-<? include_once($_SERVER['FRAMEWORK_PATH']."/include/segment.php") ?>
+<? include_once($_SERVER['LOCAL_PATH']."/includes/segment.php") ?>
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -23,6 +23,7 @@
 			return "/attachments/assets";
 		};
 	</script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMB089UoM8jopyT_dHW_eLPIcqp9wHrmk"></script>
 </head>
 
 <body class="<?= $body_class ?>">
